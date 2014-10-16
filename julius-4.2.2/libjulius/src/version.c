@@ -28,8 +28,8 @@
 
 #include <julius/julius.h>
 
-#define CC "/Users/nmatsui/Lib/android/android-ndk-r8b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/arm-linux-androideabi-gcc -mandroid --sysroot=/Users/nmatsui/Lib/android/android-ndk-r8b/platforms/android-8/arch-arm" ///< Used compiler
-#define CFLAGS "-nostdlib -UWORDS_BIGENDIAN -DANDROID_CUSTOM -DANDROID_DEBUG" ///< Used flags for compilation
+#define CC "/Users/user/Android/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -mandroid --sysroot=/Users/user/Android/android-ndk-r8e/platforms/android-8/arch-arm" ///< Used compiler
+#define CFLAGS "-nostdlib -DANDROID_CUSTOM -DANDROID_DEBUG" ///< Used flags for compilation
 
 /** 
  * <JA>
